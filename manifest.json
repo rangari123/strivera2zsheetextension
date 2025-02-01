@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Striver's A2Z DSA Picker",
+  "version": "1.0",
+  "description": "Daily DSA problems from Striver's A2Z Sheet",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
